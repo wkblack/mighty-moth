@@ -1,0 +1,13 @@
+// ⚠️ Only modify this file if you know what you're doing!
+{
+  "name": "Python 3.10",
+  "image": "ghcr.io/zilch/python-3.10-0",
+  "extensions": [
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "/home/zilch/zilch-vscode-extension/zilch.vsix"
+  ],
+  "mounts": [
+    "source=zilch-vscode-extension,target=/home/zilch/zilch-vscode-extension,type=volume"
+  ]
+}

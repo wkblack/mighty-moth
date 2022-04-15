@@ -1,0 +1,12 @@
+# ⚠️ Only modify this file if you know what you're doing!
+
+[MESSAGES CONTROL]
+disable=
+    no-self-use,
+    missing-function-docstring,
+    too-few-public-methods,
+    missing-class-docstring,
+    missing-module-docstring
+
+[FORMAT]
+good-names=i,j,k,x,y
